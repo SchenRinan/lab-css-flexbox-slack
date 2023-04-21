@@ -1,18 +1,60 @@
-@media screen and (min-width: 769px) and (max-width: 1024px){
+
+
+@media screen and (min-width: 1441px){
     nav {
         background-color: #540B51;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 3vw;
+        padding: 2vw;
     }
     
+    #iconandburger{
+        display: flex;
+        width: 45vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     #navburger{
-    display: none;
+    list-style-type: none;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    #navburger a{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
     }
     
+    #navsignin{
+        list-style-type: none;
+        display: flex;
+        width: 15vw;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.5vw;
+    }
+
+    #navsigninlink{
+        text-decoration: none;
+        color: white;
+    }
+
+    #navtryforfree{
+        background-color: white;
+        padding: 1vw;
+        border-radius: 0.5vw;
+        text-decoration: none;
+        color: #540B51;
+    }
+
     #navbuttons{
-        width: 8vw;
+        width: 20vw;
         display: flex;
         justify-content: space-between;
     }
@@ -38,29 +80,30 @@
         align-items: center;
         text-align: left;
         padding-bottom: 3vw;
-        height: 80.5vw;
+        
     }
     
     .imageview{
         width: 100%;
-        height: 40vw;
+        height: 25vw;
         object-fit: cover;
         object-position: left;
     }
     
     header h1, header p{
         color: white;
-        width: 50vw;
+        width: 40vw;
     }
     
     header h1{
-        font-size: 8vw;
+        font-size: 5.7vw;
         padding: 3vw;
     }
     
     header p{
-        font-size: 3vw;
-        padding: 3vw;
+        font-size: 2.2vw;
+        padding: 0 3vw 1vw;
+        width: 35vw;
     }
     
     header b{
@@ -68,29 +111,32 @@
     }
     
     #signupgmail{
-        padding: 6vw;
-        width: 50vw;
+        padding: 1vw 3vw;
+        width: 46vw;
+        display: flex;
+        justify-content: space-between;
     }
 
     header button{
-        width: 47vw;
-        height: 6vw;
+        width: 20vw;
+        height: 3vw;
         border-style: none;
         border-radius: 3px;
         text-transform: uppercase;
-        font-size: 1.7vw;
+        font-size: 1vw;
         font-weight: bold;
         color: #540B51;
         margin-bottom: 3vw;
+   
     }
     
     #googlelogo{
-        height: 5vw;
-        padding: 0 7px;
+        height: 2.5vw;
+        padding: 0 2px;
         background-color: white;
         background-size: 60px 60px;
         border-radius: 5px;
-        margin-right: 6vw;
+        margin-right: 1.7vw;
     }
     
     #googlebutton{
@@ -106,19 +152,22 @@
         font-weight: bold;
         text-align: center;
         background-color: #F3EAE2;
-        padding-bottom: 10vw;
+        padding-bottom: 5vw;
     }
     .maincascade{
         font-size: 2.5vw;
         font-weight: bold;
         text-align: center;
         background-color: #F3EAE2;
-        padding-bottom: 10vw;
+        padding-bottom: 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
     #trusted{
-        padding: 5vw 0;
-        font-size: 2.vw;
+        padding: 2.5vw 0;
+        font-size: 1.5vw;
         text-transform: uppercase;
     }
     
@@ -127,17 +176,18 @@
         justify-content: space-between;
         flex-wrap: wrap;
         width: 95vw;
-        height: 6vw;
+        height: 10vw;
         padding: 0 2vw;
     }
     
     #companylogos img{
         margin: 1vw;
-        height: 4vw;
+        height: 3.1vw;
     }
     
     .phoneleft{
         text-align: left;
+        width: 40vw;
     }
     
     .phoneright{
@@ -146,73 +196,76 @@
     
     .maintext{
         text-align: left;
-        width: 60vw;
-        margin: auto;
+        width: 40vw;
         padding-left: 5vw;
     }
     
     .maintext h2{
-        font-size: 4vw;
-        padding: 5vw 0;
+        font-size: 3vw;
+        padding: 0 0 2vw;
     }
     
     .maintext p{
-        font-size: 2.5vw;
-        line-height: 4vw;
-        padding-bottom: 5vw;
+        font-size: 1.5vw;
+        line-height: 2vw;
+        padding-bottom: 2vw;
+        width: 35vw;
     }
     
+    .maintext span{
+        font-size: 1.5vw;
+    }
+
     .phonepics{
-        width: 80vw;
+        width: 40vw;
         height: 100%;
         object-fit: cover;
     }
     
-    #flexreverse{
+    /* #flexreverse{
         display: flex;
         flex-direction: column-reverse;
-    }
+    } */
     
     #teamsrely{
-        padding: 10vw 4vw;
+        padding: 4vw 4vw 4vw;
         text-align: center;
         
     }
     
     #teamsrely h3{
-        font-size: 4vw;
+        font-size: 2.8vw;
     }
     
     #slacksecurely{
-        font-size: 2.3vw;
-        padding: 3vw 0;
+        font-size: 1.5vw;
+        padding: 2vw 0;
         font-weight: bold;
     }
     
     .enterprise{
-        width: 42vw;
-        height: 8vw;
+        width: 25vw;
+        height: 3.2vw;
         border: solid 2px;
         border-radius: 3px;
         text-transform: uppercase;
-        font-size: 2vw;
+        font-size: 1.1vw;
         font-weight: bold;
         color: white;
-        margin: 2.5vw 0;
         background-color: #540B51;
         border-color: white;
     }
     
     .talktosales{
-        width: 23vw;
-        height: 8vw;
+        width: 12vw;
+        height: 3.2vw;
         border: solid 2px;
         border-radius: 3px;
         text-transform: uppercase;
-        font-size: 2vw;
+        font-size: 1.1vw;
         font-weight: bold;
         color: #540B51;
-        margin: 2.5vw 5vw 0;
+        margin: 0 2.5vw;
         background-color: white;
         border-color: #540B51;
     }
@@ -228,81 +281,82 @@
     
     #teamsrely li{
         padding: 2vw 0;
-        line-height: 2vw;
-        font-size: 2vw;
-        width: 27vw;
+        line-height: 1.3vw;
+        font-size: 1vw;
+        width: 14vw;
         text-align: left;
+        font-weight: bold;
     }
     
     #teamsrely span{
-        font-size: 6vw;
+        font-size: 4vw;
         color: #540B51;
         font-weight: bold;
     }
     
     .percentspace{
-        padding-bottom: 3vw;
+        padding-bottom: 1vw;
     }
     
     #welcome{
         background-color: #540B51;
         color: white;
-        font-size: 3.5vw;
-        padding: 5vw 0;
+        font-size: 2.5vw;
+        padding: 2vw 0;
         text-align: center;
     }
 
     #tryforfree{
-        width: 80vw;
-        height: 8vw;
+        width: 15vw;
+        height: 3.2vw;
         border: solid 2px;
         border-radius: 3px;
         text-transform: uppercase;
-        font-size: 2vw;
+        font-size: 1.1vw;
         font-weight: bold;
         color: #540B51;
-        margin: 2.5vw 5vw 0;
+        margin: 1.5vw 1vw 0;
         background-color: white;
         border-color: #540B51;
     }
     #tryforfree2{
-        width: 80vw;
-        height: 8vw;
+        width: 15vw;
+        height: 3.2vw;
         border: solid 2px;
         border-radius: 3px;
         text-transform: uppercase;
-        font-size: 2vw;
+        font-size: 1.1vw;
         font-weight: bold;
         color: white;
-        margin: 2.5vw 5vw 0;
+        margin: 1.5vw 1vw 0;
         background-color: #540B51;
         border-color: white;
     }
     
     footer{
-        padding: 6vw 3vw;
+        padding: 3vw 3vw;
     }
     
     #logofoot{
-        height: 7vw;
+        height: 3vw;
     }
     
     #footerstack{
         display: flex;
         justify-content: space-between;
-        padding: 3vw 0;
+        padding: 1vw 0;
     }
     
     
     .stackfoot{
         list-style-type: none;
         width: 20vw;
-        font-size: 2vw;
+        font-size: 1vw;
         color: #454245;
     }
     
     footer li{
-        padding: 1.5vw 0;
+        padding: 1vw 0;
     }
     
     #status{
@@ -310,7 +364,7 @@
         justify-content: space-between;
         padding: 3vw 0;
         list-style-type: none;
-        font-size: 1.5vw;
+        font-size: 1vw;
         font-weight: bold;
     }
     
@@ -318,17 +372,18 @@
         list-style-type: none;
         display: flex;
         justify-content: space-between;
-        width: 40vw;
+        width: 30vw;
         padding-bottom: 5vw;
-        font-size: 3vw;
+        font-size: 1.5vw;
     }
     
     #copyright{
-        font-size: 1.7vw;
+        font-size: 1vw;
         color: #454245;
     }
 
-    .hidemobile{
+    .hidedesktop{
         display: none;
     }
 }
+

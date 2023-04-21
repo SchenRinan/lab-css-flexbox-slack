@@ -16,7 +16,7 @@ footer links grey: #454245
 
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     nav {
         background-color: #540B51;
         display: flex;
@@ -128,7 +128,7 @@ footer links grey: #454245
             font-weight: bold;
             text-align: center;
             background-color: #F3EAE2;
-            padding-bottom
+            padding-bottom: 10vw
     }
     
     #trusted{
@@ -337,5 +337,9 @@ footer links grey: #454245
     #copyright{
         font-size: 3.2vw;
         color: #454245;
+    }
+
+    .hidemobile{
+        display: none;
     }
 }

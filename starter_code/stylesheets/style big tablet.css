@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 1024px) and (max-width: 1439px){
+@media screen and (min-width: 1025px) and (max-width: 1440px){
     nav {
         background-color: #540B51;
         display: flex;
@@ -11,14 +11,14 @@
     
     #iconandburger{
         display: flex;
-        width: 80vw;
+        width: 65vw;
         justify-content: space-between;
         align-items: center;
     }
 
     #navburger{
     list-style-type: none;
-    width: 60vw;
+    width: 45vw;
     display: flex;
     justify-content: space-between;
     }
@@ -31,8 +31,30 @@
     color: white;
     }
     
+    #navsignin{
+        list-style-type: none;
+        display: flex;
+        width: 15vw;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.5vw;
+    }
+
+    #navsigninlink{
+        text-decoration: none;
+        color: white;
+    }
+
+    #navtryforfree{
+        background-color: white;
+        padding: 1vw;
+        border-radius: 0.5vw;
+        text-decoration: none;
+        color: #540B51;
+    }
+
     #navbuttons{
-        width: 8vw;
+        width: 20vw;
         display: flex;
         justify-content: space-between;
     }
@@ -171,17 +193,17 @@
     .maintext{
         text-align: left;
         width: 40vw;
-        padding-left: 5vw;
+        padding-left: 0vw;
     }
     
     .maintext h2{
         font-size: 4vw;
-        padding: 0 0 5vw;
+        padding: 0 0 1vw;
     }
     
     .maintext p{
         font-size: 2vw;
-        line-height: 4vw;
+        line-height: 3vw;
         padding-bottom: 5vw;
         width: 35vw;
     }
@@ -191,7 +213,7 @@
     }
 
     .phonepics{
-        width: 40vw;
+        width: 50vw;
         height: 100%;
         object-fit: cover;
     }
@@ -355,5 +377,10 @@
         font-size: 1.7vw;
         color: #454245;
     }
+
+    .hidedesktop{
+        display: none;
+    }
+
 }
 

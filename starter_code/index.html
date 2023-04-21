@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./stylesheets/style mobile.css" />
   <link rel="stylesheet" href="./stylesheets/style tablet.css" />
   <link rel="stylesheet" href="./stylesheets/style big tablet.css" />
+  <link rel="stylesheet" href="./stylesheets/style desktop.css" />
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
@@ -44,16 +45,16 @@
         <img src="./images/icon-search.png" alt="Search icon" class="naviconb">
       </button>
 
-      <button class="puplebg">
+      <button class="puplebg hidedesktop">
         <img src="./images/icon-menu.png" alt="Menu icon" class="naviconb">
       </button>
 
-      <ul hidden>
+      <ul class="hidemobile" id="navsignin">
         <li>
-          <a href="#">Sign in</a>
+          <a href="#" id="navsigninlink">Sign in</a>
         </li>
         <li>
-          <a href="#">Try for free</a>
+          <a href="#" id="navtryforfree">Try for free</a>
         </li>
       </ul>
     </div>
@@ -98,7 +99,8 @@
 
     <section class="maincascade">
       <div class="phoneleft">
-        <img src="./images/connectedness-mobile.png" alt="connectedness" class="phonepics" />
+        <img src="./images/connectedness-mobile.png" alt="connectedness" class="phonepics hidedesktop" />
+        <img src="./images/connectedness.png" alt="connectedness" class="phonepics hidemobile" />
       </div>
 
       <div class="maintext">
@@ -130,13 +132,15 @@
       </div>
 
       <div class="phoneright">
-        <img src="./images/flexibility-mobile.png" alt="flexibility" class="phonepics" />
+        <img src="./images/flexibility.png" alt="flexibility" class="phonepics hidemobile" />
+        <img src="./images/flexibility-mobile.png" alt="flexibility" class="phonepics hidedesktop" />
       </div>
     </section>
 
     <section class="maincascade">
       <div class="phoneleft">
-        <img src="./images/speed-mobile.png" alt="speed" class="phonepics" />
+        <img src="./images/speed-mobile.png" alt="speed" class="phonepics hidedesktop" />
+        <img src="./images/speed.png" alt="speed" class="phonepics hidemobile" />
       </div>
 
       <div class="maintext">
