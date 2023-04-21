@@ -1,0 +1,359 @@
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    nav {
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vw;
+    }
+    
+    #iconandburger{
+        display: flex;
+        width: 80vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navburger{
+    list-style-type: none;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    #navburger a{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
+    }
+    
+    #navbuttons{
+        width: 8vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #logo{
+        height: 3vw;
+    }
+    
+    .puplebg{
+        background-color: #540B51;
+        border-style: none;
+    }
+    
+    .naviconb{
+        height: 2.5vw;
+    }
+    
+    header{
+        background-image: url(../images/background-singup.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        padding-bottom: 3vw;
+        height: 91.5vw;
+    }
+    
+    .imageview{
+        width: 100%;
+        height: 40vw;
+        object-fit: cover;
+        object-position: left;
+    }
+    
+    header h1, header p{
+        color: white;
+        width: 50vw;
+    }
+    
+    header h1{
+        font-size: 8vw;
+        padding: 3vw;
+    }
+    
+    header p{
+        font-size: 3vw;
+        padding: 3vw;
+    }
+    
+    header b{
+        color: rgb(236, 177, 47);
+    }
+    
+    #signupgmail{
+        padding: 6vw;
+        width: 50vw;
+    }
+
+    header button{
+        width: 47vw;
+        height: 6vw;
+        border-style: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: 1.7vw;
+        font-weight: bold;
+        color: #540B51;
+        margin-bottom: 3vw;
+    }
+    
+    #googlelogo{
+        height: 5vw;
+        padding: 0 7px;
+        background-color: white;
+        background-size: 60px 60px;
+        border-radius: 5px;
+        margin-right: 6vw;
+    }
+    
+    #googlebutton{
+        background-color: #4285F4;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    #companies{
+        font-size: 2.5vw;
+        font-weight: bold;
+        text-align: center;
+        background-color: #F3EAE2;
+        padding-bottom: 10vw;
+    }
+    .maincascade{
+        font-size: 2.5vw;
+        font-weight: bold;
+        text-align: center;
+        background-color: #F3EAE2;
+        padding-bottom: 10vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #trusted{
+        padding: 5vw 0;
+        font-size: 2.vw;
+        text-transform: uppercase;
+    }
+    
+    #companylogos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 95vw;
+        height: 10vw;
+        padding: 0 2vw;
+    }
+    
+    #companylogos img{
+        margin: 1vw;
+        height: 3.1vw;
+    }
+    
+    .phoneleft{
+        text-align: left;
+        width: 40vw;
+    }
+    
+    .phoneright{
+        text-align: right;
+    }
+    
+    .maintext{
+        text-align: left;
+        width: 40vw;
+        padding-left: 5vw;
+    }
+    
+    .maintext h2{
+        font-size: 4vw;
+        padding: 0 0 5vw;
+    }
+    
+    .maintext p{
+        font-size: 2vw;
+        line-height: 4vw;
+        padding-bottom: 5vw;
+        width: 35vw;
+    }
+    
+    .maintext span{
+        font-size: 2vw;
+    }
+
+    .phonepics{
+        width: 40vw;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* #flexreverse{
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+    
+    #teamsrely{
+        padding: 10vw 4vw;
+        text-align: center;
+        
+    }
+    
+    #teamsrely h3{
+        font-size: 4vw;
+    }
+    
+    #slacksecurely{
+        font-size: 2.3vw;
+        padding: 3vw 0;
+        font-weight: bold;
+    }
+    
+    .enterprise{
+        width: 42vw;
+        height: 8vw;
+        border: solid 2px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: 2vw;
+        font-weight: bold;
+        color: white;
+        margin: 2.5vw 0;
+        background-color: #540B51;
+        border-color: white;
+    }
+    
+    .talktosales{
+        width: 23vw;
+        height: 8vw;
+        border: solid 2px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: 2vw;
+        font-weight: bold;
+        color: #540B51;
+        margin: 2.5vw 5vw 0;
+        background-color: white;
+        border-color: #540B51;
+    }
+    
+    #teamsrely ul{
+        list-style-type: none;
+        padding: 3vw 0 0;
+        text-align: center;
+        width: 92vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #teamsrely li{
+        padding: 2vw 0;
+        line-height: 2vw;
+        font-size: 2vw;
+        width: 27vw;
+        text-align: left;
+    }
+    
+    #teamsrely span{
+        font-size: 6vw;
+        color: #540B51;
+        font-weight: bold;
+    }
+    
+    .percentspace{
+        padding-bottom: 3vw;
+    }
+    
+    #welcome{
+        background-color: #540B51;
+        color: white;
+        font-size: 3.5vw;
+        padding: 5vw 0;
+        text-align: center;
+    }
+
+    #tryforfree{
+        width: 30vw;
+        height: 8vw;
+        border: solid 2px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: 2vw;
+        font-weight: bold;
+        color: #540B51;
+        margin: 2.5vw 1vw 0;
+        background-color: white;
+        border-color: #540B51;
+    }
+    #tryforfree2{
+        width: 30vw;
+        height: 8vw;
+        border: solid 2px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-size: 2vw;
+        font-weight: bold;
+        color: white;
+        margin: 2.5vw 1vw 0;
+        background-color: #540B51;
+        border-color: white;
+    }
+    
+    footer{
+        padding: 6vw 3vw;
+    }
+    
+    #logofoot{
+        height: 7vw;
+    }
+    
+    #footerstack{
+        display: flex;
+        justify-content: space-between;
+        padding: 3vw 0;
+    }
+    
+    
+    .stackfoot{
+        list-style-type: none;
+        width: 20vw;
+        font-size: 2vw;
+        color: #454245;
+    }
+    
+    footer li{
+        padding: 1.5vw 0;
+    }
+    
+    #status{
+        display: flex;
+        justify-content: space-between;
+        padding: 3vw 0;
+        list-style-type: none;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+    
+    #socmed{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+        padding-bottom: 5vw;
+        font-size: 3vw;
+    }
+    
+    #copyright{
+        font-size: 1.7vw;
+        color: #454245;
+    }
+}
+
