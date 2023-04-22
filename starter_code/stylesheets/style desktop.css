@@ -27,7 +27,7 @@
     list-style-type: none;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: white;
     }
     
@@ -37,7 +37,7 @@
         width: 15vw;
         justify-content: space-between;
         align-items: center;
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
     #navsigninlink{
@@ -69,7 +69,7 @@
     }
     
     .naviconb{
-        height: 2.5vw;
+        height: 2vw;
     }
     
     header{
@@ -96,7 +96,7 @@
     }
     
     header h1{
-        font-size: 5.7vw;
+        font-size: 5.2vw;
         padding: 3vw;
     }
     
